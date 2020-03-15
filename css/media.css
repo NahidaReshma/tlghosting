@@ -1,0 +1,312 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*Header start*/
+	header {
+		padding: 20px 0;
+	}
+	.logo{
+		width: 150px;
+	}
+	.menu ul li a {
+		font-size: 18px;
+		padding: 3px 0 !important;
+		text-align: right;
+	}
+	/*Header end*/
+	/*banner-1 Start*/
+	.banner-1-text{
+		padding: 30px 0;
+	}
+	.banner-1-text h1{
+		font-size: 30px;
+	}
+	.banner-1-text p{
+		font-size: 16px;
+	}
+
+	.btn-banner {
+		font-size: 16px;
+		width: 150px;
+		height: 45px;
+
+	}
+
+	/*banner-1 End*/
+	/*Feature Start*/
+	.Feature {
+		padding: 30px 0;
+	}
+	.t_h1 {
+		font-size: 30px;
+	}
+
+	.m_t_60 {
+		margin-top: 10px;
+	}
+
+	/*Feature End*/
+	/*Prices Start*/
+	section.pricing {
+	padding: 30px 0 !important;
+}
+.ash{
+	margin-bottom: 30px;
+
+}
+	/*Prices end*/
+	/*clients start*/
+	.clients{
+		padding: 30px 0;
+	}
+	.m-f{
+		padding: 15px 0;
+	}
+
+	.mq{
+		padding: 10px 10px;
+	}
+	.mi{
+		padding: 10px 10px;
+	}
+
+	/*clients end*/
+	/*Banner-2 start*/
+	.banner-2 {
+		padding: 30px 0;
+	}
+
+	.t_h1{
+		font-size: 30px;
+	}
+	.t_p{
+		font-size: 16px;
+	}
+	.contact_form {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.btn-contact {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	/*Banner-2 end*/
+	/*contact start*/
+	.contact{
+		padding: 30px 0;
+	}
+	.social ul li a {
+		font-size: 20px;
+	}
+	/*contact end*/
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*Header start*/
+	header {
+		padding: 20px 0;
+	}
+	.logo{
+		width: 190px;
+	}
+	.menu ul li a {
+		font-size: 18px;
+		padding: 4px 0 !important;
+		text-align: right;
+	}
+	/*Header end*/
+	/*banner-1 Start*/
+	.banner-1-text{
+		padding: 30px 0;
+	}
+	.banner-1-text h1{
+		font-size: 35px;
+	}
+	.banner-1-text p{
+		font-size: 16px;
+	}
+
+	.btn-banner {
+		font-size: 16px;
+		width: 150px;
+		height: 45px;
+
+	}
+
+	/*banner-1 End*/
+	/*Feature Start*/
+	.Feature {
+		padding: 30px 0;
+	}
+	.t_h1 {
+		font-size: 35px;
+	}
+
+	.m_t_60 {
+		margin-top: 15px;
+	}
+
+	/*Feature End*/
+	/*Prices Start*/
+	section.pricing {
+	padding: 30px 0 !important;
+}
+.ash{
+	margin-bottom: 30px;
+
+}
+	/*Prices end*/
+	/*clients start*/
+	.clients{
+		padding: 30px 0;
+	}
+	.m-f{
+		padding: 15px 0;
+	}
+
+	.mq{
+		padding: 10px 10px;
+	}
+	.mi{
+		padding: 10px 10px;
+	}
+
+	/*clients end*/
+	/*Banner-2 start*/
+	.banner-2 {
+		padding: 30px 0;
+	}
+
+	.t_h1{
+		font-size: 35px;
+	}
+	.t_p{
+		font-size: 16px;
+	}
+	.contact_form {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.btn-contact {
+		margin-left: 10px;
+		
+	}
+	/*Banner-2 end*/
+	/*contact start*/
+	.contact{
+		padding: 30px 0;
+	}
+	.social ul li a {
+		font-size: 30px;
+	}
+	/*contact end*/
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*Header start*/
+	
+	.menu ul li a {
+		font-size: 18px;
+		padding: 5px 0 !important;
+		text-align: right;
+	}
+	/*Header end*/
+	/*banner-1 Start*/
+	.banner-1-text{
+		padding: 50px 0;
+	}
+	.banner-1-text h1{
+		font-size: 40px;
+	}
+	.banner-1-text p{
+		font-size: 18px;
+	}
+
+	.btn-banner {
+		font-size: 18px;
+		width: 150px;
+		height: 50px;
+
+	}
+
+	/*banner-1 End*/
+	/*Feature Start*/
+	.Feature {
+		padding: 50px 0;
+	}
+	.t_h1 {
+		font-size: 40px;
+	}
+
+	.m_t_60 {
+		margin-top: 30px;
+	}
+
+	/*Feature End*/
+	/*Prices Start*/
+	section.pricing {
+	padding: 50px 0 !important;
+}
+.ash{
+	margin-bottom: 30px;
+
+}
+
+	/*Prices end*/
+	/*clients start*/
+	.clients{
+		padding: 50px 0;
+	}
+	.mq{
+		margin-top: 10px !important;
+		margin-right: 25px !important;
+		margin-left: 25px !important;
+	}
+	.mi{
+		padding: 20px 20px;
+	}
+
+	/*clients end*/
+	/*Banner-2 start*/
+	.banner-2 {
+		padding: 50px 0;
+	}
+
+	.t_h1{
+		font-size: 40px;
+	}
+	.t_p{
+		font-size: 18px;
+	}
+	.contact_form {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.btn-contact {
+		margin-left: 20px;
+		
+	}
+	/*Banner-2 end*/
+	/*contact start*/
+	.contact{
+		padding: 50px 0;
+	}
+	.social ul li a {
+		font-size: 40px;
+	}
+	/*contact end*/
+	.footer p{
+		font-size: 9px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

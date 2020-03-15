@@ -1,0 +1,338 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	color: #333333;
+	margin: 0 0;
+	padding: 0 0;
+}
+/*Header start*/
+header{
+	background-color: white;
+	padding: 20px 0;
+}
+.logo{
+		width: 220px;
+		
+	}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0;
+	color: black !important;
+	padding: 0 12px !important;
+	border-radius: 15px;
+	transition: 0.9s;
+}
+.menu ul li a:hover {
+	background-color: #FB4F1B;
+}
+
+/*Header end*/
+/*banner-1 Start*/
+.banner-1 {
+	background-image: url("../img/banner-1.png");
+
+}
+.banner-1-text{
+	padding: 100px 0;
+}
+.banner-1-text h1{
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+}
+.banner-1-text p{
+	color: #ffec1a;
+	font-size: 27px;
+	padding-bottom: 30px;
+}
+
+.btn-banner {
+	font-weight: 700;
+	font-size: 20px;
+	width: 215px;
+	height: 65px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #FB4F1B;
+	transition: 0.9s;
+}
+.btn-banner:hover {
+	transform: scale(0.8);
+}
+
+/*banner-1 End*/
+
+/*Feature Start*/
+.Feature {
+	padding: 100px 0;
+	
+}
+.title {
+
+}
+.b_h1 {
+	font-weight: 700;
+	font-size: 40px;
+	color: #010101;
+	text-transform: capitalize;
+}
+.b_p {
+	color: #313841;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 26px;
+	padding-bottom: 0;
+}
+.pm{
+	margin-bottom: 30px;
+}
+.m_t_60 {
+	margin-top: 60px;
+}
+.f_icon {
+	font-size: 50px;
+	color: #010101;
+	transition: 0.9s;
+	
+}
+.f_icon:hover {
+	transform: scale(1.5);
+}
+
+.f_txt {
+	margin-top: 10px;
+}
+.f_txt h2 {
+	font-weight: 400;
+	font-size: 20px;
+	color: #010101;
+}
+.f_txt p {
+	color: #898989;
+	letter-spacing: 1px;
+}
+/*Feature End*/
+/*prices start*/
+section.pricing {
+	background-image: url(../img/pricebg.png);
+	padding: 100px 0 !important;
+}
+.ash{
+	margin-bottom: 60px;
+}
+
+.pricing .card {
+	min-height: 570px;
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+	margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+}
+
+.pricing .card-price {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.pricing .card-price .period {
+	font-size: 0.8rem;
+}
+
+.pricing ul li {
+	margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+	opacity: 0.7;
+}
+
+.pricing .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 1rem;
+	opacity: 0.7;
+	transition: all 0.9s;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+	.pricing .card:hover {
+		margin-top: -.25rem;
+		margin-bottom: .25rem;
+		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+	}
+	.pricing .card:hover .btn {
+		opacity: 1;
+	}
+}
+/*prices end*/
+
+/*clients start*/
+.clients{
+	padding: 100px 0;
+}
+.m-f{
+	padding: 45px 0;
+}
+.flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.9s;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.flip-card-back {
+	background-color: #2980b9;
+	color: white;
+	transform: rotateY(180deg);
+	padding: 30px 30px;
+	
+}
+img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+/*clients end*/
+
+/*Banner-2 start*/
+.banner-2 {
+	background-image: url(../img/banner-2.png);
+	padding: 100px 0;
+}
+
+.t_h1{
+	color: white;
+	font-size: 40px;
+}
+.t_p{
+	color: white;
+	font-size: 18px;
+}
+.contact {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background-color: #010101;
+}
+
+.contact_form {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.c_input {
+	width: 100%
+	height: 50px;
+	color: #010101;
+}
+.c_input::placeholder {
+	color: #898989;
+	opacity: 1;
+}
+
+.c_input:-ms-input-placeholder {
+	color: #898989;
+}
+
+.c_input::-ms-input-placeholder {
+	color: #898989;
+}
+.btn-contact {
+	font-weight: 700;
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #FB4F1B;
+	margin-left: 20px;
+	transition: 0.9s;
+}
+.btn-contact:hover {
+	transform: scale(0.5);
+}
+/*Banner-2 end*/
+/*contact start*/
+label{
+	color: white;
+}
+
+.social {}
+.social ul li a {
+	background-color: white;
+	color: black;
+	font-size: 40px;
+	padding: 0 5px;
+	border-radius: 5px;
+	margin-right: 20px;
+	transition: 0.9s;
+}
+.social ul li:hover {
+	transform: scale(1.5);
+}
+.btn-p{
+	font-weight: 700;
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #FB4F1B;
+	margin-bottom: 30px;
+	transition: 0.9s;
+}
+.btn-p:hover {
+	transform: scale(1.5);
+}
+
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: white;
+	padding: 10px 0;
+}
+.footer p{
+	font-size: 12px;
+	text-transform: capitalize; 
+}
+/*footer end*/
